@@ -16,7 +16,7 @@ func Rect(base, altura float64) float64 {
 	return base * altura
 }
 
-// Não é visível!
-func _TringuloEq(base, altura float64) float64 {
+// Não é visível! (no lugar de _ usar letra minuscula no inicio)
+func TringuloEq(base, altura float64) float64 {
 	return (base * altura) / 2.0
 }
